@@ -9,25 +9,20 @@ Implement a function StringManipulation(str), that accepts a string as the str p
 - The string has every alternate character from the original string (e.g. for an input “abcdefg”, the output string would be “aceg”)
 Print every output separately and label them appropriately. You must use python to solve this question.
 
-Sample Input:
-
-ComputerProgrammingIsForGeeks1234
-Sample Output:
-
-Output1:
-DpnqvufsQsphsbnnjohJpGpsHfflp1234
-
-Output2:
-4321plffHspGpJhjnnbshpsQsfvqnpD
-
-Output3:
-CmuePormigsoGes24
-
+![image](https://user-images.githubusercontent.com/85012501/188918059-8d14c286-ac12-48f9-b75d-04b36b9f202c.png)
 
 ## Question 2
 
 Use the linked Titanic dataset to answer the following questions using python code:
 
 - Display only the numeric columns.
+
+![image](https://user-images.githubusercontent.com/85012501/188891951-3aeba68c-04d3-4c42-8972-fbd595b0e7a9.png)
+
 - Remove the null values from column ‘Age’, ‘Fare’.
+
+![image](https://user-images.githubusercontent.com/85012501/188892079-ab9e6b51-e0c8-41d6-9618-12fbfe76d0ab.png)
+
 - Replace the null values of ‘Age’ and ‘Fare’ with the column mean.
+
+![image](https://user-images.githubusercontent.com/85012501/188892166-42eef35d-9366-47f4-8740-4fda19db9b53.png)
