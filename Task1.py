@@ -11,10 +11,10 @@ def StringManipulation(str):
             lst.append(i)
     result1=''.join(lst)
 
-    result2=str[::-1]
+    result2=result1[::-1]
 
     result3= str[::2]
-    print("1. ",result1,"\n2. ",result2,"\n3. ",result3)
+    print("\n1. Succeeding alphabet: ",result1,"\n2. The string is inverted after removing all vowels: ",result2,"\n3. The string has every alternate character from the original string: ",result3)
 
 str=input("Enter a string: ")
 result = StringManipulation(str)
