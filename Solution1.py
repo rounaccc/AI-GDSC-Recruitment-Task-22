@@ -10,8 +10,11 @@ def StringManipulation(str):
         else:
             lst.append(i)
     result1=''.join(lst)
-
-    result2=result1[::-1]
+    str1=''
+    for i in result1:
+        if i not in ['a','e','i','o','u','A','E','I','O','U']:
+            str1+=i
+    result2=str1[::-1]
 
     result3= str[::2]
     print("\n1. Succeeding alphabet: ",result1,"\n2. The string is inverted after removing all vowels: ",result2,"\n3. The string has every alternate character from the original string: ",result3)
