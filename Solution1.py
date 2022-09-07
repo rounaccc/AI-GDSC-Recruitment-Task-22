@@ -20,5 +20,4 @@ def StringManipulation(str):
     print("\n1. Succeeding alphabet: ",result1,"\n2. The string is inverted after removing all vowels: ",result2,"\n3. The string has every alternate character from the original string: ",result3)
 
 str=input("Enter a string: ")
-result = StringManipulation(str)
-print(result)
+StringManipulation(str)
