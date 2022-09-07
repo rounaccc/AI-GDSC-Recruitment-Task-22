@@ -1,4 +1,4 @@
-# AI-Recruitment-Task-22
+# AI-GDSC-Recruitment-Task-22
 
 ## Question 1
 
